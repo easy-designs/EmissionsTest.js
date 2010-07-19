@@ -1,0 +1,18 @@
+== EmissionsTest.js
+
+A simple script to notify you of possible pollution in the global namespace.
+
+== Installation/Usage
+
+Include the included EmissionsTest.js before any other JavaScript on your page. 
+After the page has finished loading and a respectable amount of time has elapsed,
+an EmissionsTest report will be delivered to the console (or will be appended 
+to the document if `window.console` does not exist).
+
+We don't recommend using EmissionsTest.js in production, but it can be quite 
+useful during development.
+
+== License
+
+EmissionsTest.js is licensed under the terms of the MIT License, see 
+the included MIT-LICENSE file.
